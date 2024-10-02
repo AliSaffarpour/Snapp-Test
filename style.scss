@@ -169,3 +169,63 @@ div.container{
         }
     }
 }
+
+
+// For All Needs Section
+
+div.needs{
+    background-color: #f2f5f8;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+
+    .needs-header{
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 3.25rem;
+        text-align: center;
+        padding: 2.5rem;
+    }
+
+    .needs-apps{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+
+        >a{
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .subapp{
+            background-color: white;
+            margin: 1rem 2rem;
+            display: flex;
+            width: 90%;
+            border-radius: 1.125rem;
+            align-items: center;
+            padding: 1rem 0.5rem;
+
+            .subapp-logo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .subapp-info{
+                margin-right: 0.5rem;
+
+                h3{
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p{
+                    font-size: 0.875rem;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+        }
+
+    }
+}
