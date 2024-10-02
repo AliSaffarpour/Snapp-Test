@@ -123,4 +123,23 @@ body {
   flex: 0 0 50%;
 }
 
+div.container {
+  background-color: white;
+  min-width: 100%;
+  width: 100%;
+}
+div.container div.links {
+  min-height: 30vh;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+  content-visibility: auto;
+  background-color: white;
+}
+div.container div.links a {
+  margin: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
