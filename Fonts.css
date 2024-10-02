@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Thin.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Thin.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Thin.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Thin.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Light.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Light.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Light.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Light.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Regular.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Regular.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Regular.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Regular.ttf) format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Medium.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Medium.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Medium.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Medium.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Bold.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Bold.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Bold.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Bold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Vazir;
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Black.eot) format("embedded-opentype");
+
+    src: url(./Statics/Fonts/Vazir/Vazir-Black.woff2) format("woff2"),
+         url(./Statics/Fonts/Vazir/Vazir-Black.woff) format("woff"),
+         url(./Statics/Fonts/Vazir/Vazir-Black.ttf) format("truetype");
+    font-weight: 900;
+}
