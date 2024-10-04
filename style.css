@@ -412,4 +412,42 @@ div.needs .needs-apps .subapp .subapp-info p {
   padding: 1rem;
 }
 
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+footer .topfooter ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .topfooter ul a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+  margin: 1rem;
+}
+footer .midfooter {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+footer .midfooter svg {
+  color: #333;
+  margin: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+footer .bottomfooter {
+  display: flex;
+  flex-direction: row-reverse;
+}
+footer .bottomfooter img {
+  width: 130px;
+  height: 130px;
+}
+
 /*# sourceMappingURL=style.css.map */

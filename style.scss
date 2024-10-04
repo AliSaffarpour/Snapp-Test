@@ -495,3 +495,57 @@ div.needs{
         }
     }
 }
+
+
+// Footer
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+
+    .topfooter{
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 300;
+                margin: 1rem;
+            }
+
+        }
+
+    }
+
+
+    .midfooter{
+        margin: 1rem;
+        display: flex;
+        flex-direction: row-reverse;
+
+        svg{
+            color: #333;
+            margin: 0.5rem;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+
+    .bottomfooter{
+        display: flex;
+        flex-direction: row-reverse;
+
+        img{
+            width: 130px;
+            height: 130px;
+        }
+    }
+}
