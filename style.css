@@ -365,6 +365,7 @@ div.needs .needs-apps .subapp .subapp-info p {
   width: 70%;
   margin-top: 1rem;
   border-radius: 10px;
+  overflow: hidden;
 }
 .drivers-signup .benefits {
   display: flex;
@@ -448,6 +449,52 @@ footer .bottomfooter {
 footer .bottomfooter img {
   width: 130px;
   height: 130px;
+}
+
+.slider-container {
+  position: relative;
+}
+.slider-container #snapp-slider {
+  width: 100%;
+  margin: 6rem 0;
+}
+.slider-container #snapp-slider .keen-slider__slide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.slider-container #snapp-slider .keen-slider__slide a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.slider-container #snapp-slider .keen-slider__slide a img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.slider-container .slider-dots {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+}
+.slider-container .slider-dots .dot {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  outline: none;
+  margin: 0.2rem;
+  height: 11px;
+  width: 11px;
+  border-radius: 100000000000000000000rem;
+}
+.slider-container .slider-dots .active {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

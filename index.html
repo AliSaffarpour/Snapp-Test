@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Snapp </title>
         <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./Statics/CSS/keen-slider.min.css"/>
         <link rel="stylesheet" href="./style.css">
     </head>
 
@@ -674,6 +675,59 @@
 
 
 
+
+
+        <!-- Slider Section -->
+
+
+
+        <div>
+
+            <div class="slider-container">
+
+                <div id="snapp-slider" class="keen-slider">
+                    
+                    <div class="keen-slider__slide">
+                        <a href="#">
+                            <img src="./Statics/Images/Market.jpg">
+                        </a>
+                    </div>
+
+                    <div class="keen-slider__slide">
+                        <a href="#">
+                            <img src="./Statics/Images/Food.jpg">
+                        </a>
+                    </div>
+
+                    <div class="keen-slider__slide">
+                        <a href="#">
+                            <img src="./Statics/Images/Club.jpg">
+                        </a>
+                    </div>
+
+                    <div class="keen-slider__slide">
+                        <a href="#">
+                            <img src="./Statics/Images/Driver.jpg">
+                        </a>
+                    </div>
+                  
+                </div>
+
+                <div class="slider-dots">
+
+                    <button type="button" class="dot active"></button>
+                    <button type="button" class="dot"></button>
+                    <button type="button" class="dot"></button>
+                    <button type="button" class="dot"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
         <!-- needs responses section -->
 
 
@@ -1010,6 +1064,14 @@
 
 
         
+        <!-- Scripts -->
+
+
+        <script src="./Statics/JS/keen-slider.js"></script>
+
+        <script>
+            var slider = new KeenSlider("#snapp-slider")
+        </script>
 
 
     </body>

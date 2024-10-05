@@ -441,6 +441,7 @@ div.needs{
         width: 70%;
         margin-top: 1rem;
         border-radius: 10px;
+        overflow: hidden;
     }
 
     .benefits{
@@ -546,6 +547,64 @@ footer{
         img{
             width: 130px;
             height: 130px;
+        }
+    }
+}
+
+
+// Slider Section
+
+.slider-container{
+    position: relative;
+
+    #snapp-slider{
+        width: 100%;
+        margin: 6rem 0;
+    
+        .keen-slider__slide{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+    
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+    
+    
+    
+                img{
+                    width: 80%;
+                    object-fit: cover;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .slider-dots{
+        position: absolute;
+        bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        right: 0;
+
+        .dot{
+            background-color: rgba(255, 255, 255, 0.3);
+            border: none;
+            outline: none;
+            margin: 0.2rem;
+            height: 11px;
+            width: 11px;
+            border-radius: 99999999999999999999rem;
+        }
+
+        .active{
+            background-color: white;
         }
     }
 }
